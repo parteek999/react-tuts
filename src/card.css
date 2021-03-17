@@ -1,0 +1,33 @@
+/* .photo {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  } */
+  .center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+    
+    
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td {
+    text-align: left;
+  }
+  th {
+    text-align: left;
+  }
