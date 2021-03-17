@@ -31,3 +31,12 @@
   th {
     text-align: left;
   }
+  /* tr {
+    background: green;
+    border: 3px solid black;
+  } */
+  tr:nth-of-type(even) {
+    background: red;
+  }
+  /* tr:nth-child(even){background-color: #a29e9e;} */
+  

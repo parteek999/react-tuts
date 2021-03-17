@@ -47,3 +47,70 @@ class Getuser extends Component {
 }
 
 export default Getuser;
+
+/**
+ * import React from "react";
+import ReactDOM from "react-dom";
+import ReactTable from "react-table";
+import "react-table/react-table.css";
+import "./styles.css";
+
+function App() {
+  const data = [
+    {
+      name: "naveen",
+      age: 14,
+      address: "jgjg"
+    },
+    {
+      name: "test",
+      age: 18,
+      address: "jggkhkg"
+    },
+    {
+      name: "naveen",
+      age: 14,
+      address: "jgjg"
+    },
+    {
+      name: "test",
+      age: 18,
+      address: "jggkhkg"
+    }
+  ];
+  return (
+    <div>
+      <ReactTable
+        data={data}
+        columns={[
+          {
+            Header: "Name",
+            accessor: "name"
+          },
+          {
+            Header: "Age",
+            accessor: "age",
+            Cell: props => {
+              console.log(props);
+              return (
+                <div>
+                  <span className="number">{props.value}</span>
+                  <br />
+                  <span className="number">{props.original.address}</span>
+                </div>
+              );
+            } // Custom cell components!
+          }
+        ]}
+        defaultPageSize={data.length}
+        showPagination={false}
+        sortable={false}
+      />
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+ */
